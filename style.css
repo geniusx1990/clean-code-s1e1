@@ -133,7 +133,7 @@ li {
 }
 
 .tasks__input,
-.tasks__label,
+.tasks_label,
 .button {
     vertical-align: middle;
 }
