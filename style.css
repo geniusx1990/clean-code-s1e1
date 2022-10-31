@@ -12,7 +12,7 @@ body {
     text-align: right;
 }
 
-.header img {
+.header__image {
     width: 100%;
 }
 
@@ -56,11 +56,11 @@ body {
 }
 
 .tasks__input,
-button {
+.button {
     outline: none;
 }
 
-button {
+.button {
     background: none;
     border: 0px;
     color: #888;
@@ -70,7 +70,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     color: #3a3A3a;
 }
 
@@ -145,13 +145,13 @@ button:hover {
     width: 226px
 }
 
-button.delete img {
+.button__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.button__img:hover {
     transform: rotateZ(0);
 }
 
